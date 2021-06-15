@@ -1,4 +1,4 @@
-export const addTeam = (payload) => ({
-    type: "ADD_TEAM",
+export const toProgres = (payload) => ({
+    type: "TO_PROGRES",
     payload
 })
