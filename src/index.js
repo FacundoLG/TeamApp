@@ -21,7 +21,7 @@ const initialState = {
     },
     {
       Name:"Reparar Poste",
-      Ubicacion: "Av. SantoManto 123",
+      Ubicacion: "Lomas del Poroto 451",
       Tipo:"Reparacion",
       status: "ToDo",
       id:"2134562sdf"
@@ -29,14 +29,23 @@ const initialState = {
     },
     {
       Name:"Cambiar Sensor",
-      Ubicacion: "Av. SantoManto 123",
+      Ubicacion: "Av. pilin 123",
+      Tipo:"Mantenimiento",
+      status: "ToDo",
+      id:"2fd42sdf"
+
+    },
+    {
+      Name:"Cambiar Sensor",
+      Ubicacion: "Av. pilin 123",
       Tipo:"Mantenimiento",
       status: "ToDo",
       id:"2fd42sdf"
 
     }
   ],
-  inProgres: []
+  inProgres: [],
+  isCompleted: []
 }
 
 const store = createStore(reducers, initialState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())

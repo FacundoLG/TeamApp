@@ -29,16 +29,24 @@
 }
 /* List */
 .list {
-  background: #658fa9;
-  width: 32vw;
-  height: 85vh;
-  margin: 10px 5px;
+  margin: 0px 5px;
+  width: 46vw;
+  max-width: 400px;
+  min-width: 310px;
+  height: 80vh;
   padding: 10px;
+  overflow: auto;
+}
+.listData {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* Card */
 .cardContainer {
+  width: 100%;
   border-radius: 4px;
-  margin: 10px 0px;
+  margin: 5px;
 }
 .title {
   background: #e63946;
@@ -62,8 +70,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.workersData {
+  display: flex;
+  flex-direction: row;
+}
+.workerImage {
+  margin: 4px;
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+}
 .icon {
-  font-size: 18px;
   border: none;
   background: none;
 }

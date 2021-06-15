@@ -8,7 +8,6 @@ const Home = ({toDos,inProgres}) => {
             <div className="listContainer">
                 <List data={toDos} status="Todo"/>
                 <List data={inProgres}status="In progres"/>
-                <List status="Finished"/>
             </div>
         </div>            
     )

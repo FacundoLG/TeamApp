@@ -5,12 +5,14 @@ const List = ( {data,status} ) => {
     
     return (
         <div className="list">
-            <div>
+            <h3>
                 {status}
-            </div>
-            { data? data.map((todo)=>
-                <Card  todoId={todo.id}name={todo.Name} type={todo.Tipo} location={todo.Ubicacion}/>
+            </h3>
+           <div className="listData">
+           { data? data.map((todo)=>
+                <Card  todoId={todo.id}name={todo.Name} type={todo.Tipo} location={todo.Ubicacion} status={todo.status}/>
             ):""}
+           </div>
         </div>
     )
 }
