@@ -37,10 +37,10 @@ const initialState = {
     },
     {
       Name:"Cambiar Sensor",
-      Ubicacion: "Av. pilin 123",
+      Ubicacion: "Av. pololon 123",
       Tipo:"Mantenimiento",
       status: "ToDo",
-      id:"2fd42sdf"
+      id:"2fd12342sdf"
 
     }
   ],

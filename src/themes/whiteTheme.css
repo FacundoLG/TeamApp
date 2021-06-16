@@ -3,14 +3,16 @@
   background: #1d3557;
   height: 10vh;
   display: flex;
-  width: 100vw;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
   border-bottom: 1px rgb(48, 48, 48) solid;
 }
 .brand {
+  margin-left: 20px;
   font-size: 20px;
+}
+.buttons {
+  margin-right: 20px;
 }
 .buttons button {
   background: none;
@@ -18,35 +20,64 @@
   margin-left: 10px;
   font-size: 15px;
 }
+/* Home */
+.listComponent {
+  background: #8d99ae;
+  height: 580px;
+}
 .listContainer {
-  width: 100vw;
-  min-height: 90vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background: #457b9d;
+  height: 88%;
+  padding: 0px 10px;
 }
-/* List */
-.list {
-  margin: 0px 5px;
-  width: 46vw;
-  max-width: 400px;
-  min-width: 310px;
-  height: 80vh;
+/*CardCreator*/
+.creatorForm {
+  width: 300px;
+  margin: 20px 5px;
+  background: #1d3557;
+  border-radius: 10px;
   padding: 10px;
-  overflow: auto;
-}
-.listData {
-  margin-top: 5px;
+  height: 48%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.creatorForm input {
+  background-color: #1d3557;
+  border: solid white 2px;
+  height: 40px;
+  margin: 5px 0px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+.creatorForm button {
+  height: 40px;
+  background: #e63946;
+  border: none;
+  border-radius: 5px;
+}
+/* Lists */
+.list {
+  width: 300px;
+  height: 100%;
+}
+
+.listData {
+  overflow: auto;
+  height: 100%;
+}
+.listData::-webkit-scrollbar {
+  display: none;
 }
 /* Card */
 .cardContainer {
-  width: 100%;
+  width: 95%;
+  max-width: 300px;
+  height: 120px;
   border-radius: 4px;
-  margin: 5px;
+  margin: 10px;
 }
 .title {
   background: #e63946;

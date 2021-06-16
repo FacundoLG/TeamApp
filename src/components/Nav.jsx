@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <nav className="navContainer">
             <div className="brand">
-                TeamApp
+                Teams
             </div>
             <div className="buttons">
                 <button>Theme</button>
